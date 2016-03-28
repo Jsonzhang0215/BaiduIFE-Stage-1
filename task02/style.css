@@ -1,0 +1,65 @@
+/*
+* @Author: Jason
+* @Date:   2016-03-15 22:52:30
+* @Last Modified by:   Jsonzhang0215
+* @Last Modified time: 2016-03-29 00:00:30
+*/
+html{ background-color: #DEDEDE; font:12px/1.5 "Microsoft YaHei","宋体",Arial,Verdana,sans-serif;}
+body, h1, h2, ul{margin: 0; padding: 0;}
+.wrap{ width: 1250px; margin-left: auto; margin-right: auto;}
+.header{ height: 50px; background-color: #333333; margin-bottom: 20px;}
+.logo{ float: left;}
+article,aside{ background-color: #fff; margin: 0 auto 20px; padding: 20px; background-color: #fff; border:1px solid #cbcbcb; box-shadow: 2px 2px 2px rgba(0,0,0,0.3);}
+
+/* 导航 */
+.nav {margin-right: 6px; padding-top: 12px; float: right;}
+.nav ul {list-style: none;}
+.nav li { width: 76px; margin-right: 4px; float: left;}
+.nav li b{margin-right: 6px; color: #000; font-size: 16px;}
+.nav a {text-decoration: none; color: #fff; font-size: 12px; }
+.nav li:last-child a{ color: #979191; }
+
+/*article h2 {color: #090804;}*/
+/*article p { font-size: 14px; line-height: 26px;}
+article h2 + h2{ font-size: 14px; color: #646464; }
+article h2 + h2 + p { font-size: 12px; color: #7c7771; }*/
+
+/* 文章 */
+article{ width: 1200px; }
+.art-title,.art-sub,.art-info{ margin-bottom: 10px;}
+.art-title{ color: #090804; }
+.art-sub{ font-size: 14px; color: #646464;}
+.art-info{ font-size: 12px; color: #7c7771; }
+.art-content{ text-indent: 2em; font-size: 16px; }
+article ul{ list-style: none;}
+article ul, article ol {font-size: 16px;}
+article ul li{ padding-left: 20px; margin-bottom: 10px;}
+article dd{ width: 100px; padding: 10px; border:1px solid #d1d1d1; text-align: center; margin-bottom: 15px;}
+article dd img {width: 100%;}
+article dd div {margin-bottom: 10px;}
+article table {width: 100%; border-collapse: collapse; border: 1px solid #cdcdcf;}
+article th{ background-color: #333; color: #fff; text-align: left;}
+article th, td{ padding: 5px;}
+article tfoot td{ background: #cdcdcf; color: #030102;}
+article table a {color: #8571b6;}
+
+/* 侧边栏 */
+aside{width: 1180px;}
+aside h2{ border-left: 3px solid #ccc; padding-left: 10px; margin-bottom: 20px;}
+.form-item { margin-bottom: 10px;}
+.form-title, .form-input{ display: inline-block;}
+.form-title { vertical-align: top; width: 335px; text-align: right;}
+.form-input {padding-left: 12px;}
+.form-input input[type="text"],.form-input input[type="password"]{ padding: 4px;}
+.form-input p{ font-size: 12px; color: #ccc;}
+.form-item  input[type="submit"] { display: block; width: 100%; height: 38px; line-height: 38px; text-align: center; background-color: #3355d0; font-size: 18px; font-weight: bold; color: #fff; border: none; border-radius: 4px; cursor: pointer;}
+
+footer{ height: 70px; background-color: #000; text-align: center; line-height: 35px; color: #fff; }
+
+
+
+/* tools */
+.fl{ float: left; }
+.fr{ float: right; }
+.clearfix{ zoom: 1; }
+.clearfix:after{ content: ""; display: table; height: 0; clear: both; }
